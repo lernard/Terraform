@@ -15,7 +15,7 @@ variable "environment" {
 variable "web_server_security_groups" {}
 
 variable "port" {
-    default = "3389"
+    default = "3306"
 }
 
 variable "name" {}
